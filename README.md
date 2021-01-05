@@ -1,4 +1,14 @@
-# Build Your Own World Design Document
+# Build Your Own World -- 2D Tile World Design Document
+
+-------------------
+
+Final project for UC Berkeley's CS 61B - Data Structures class, completed in the Fall semester of 2020. This project was worked on with a partner and is posted with permission.
+
+This project is a game that generates a pseudo-random 2D tile world with rooms and hallways for the player to explore. Worlds are customizable with different tile themes, and the player is able to have a player name. The game has the ability to save and load user progress at any point in the game. The user interface includes a main menu, name and theme selection, and a user stats header. A tile-hover feature is also included, which details the type of the tile the mouse is currently hovering over. The goal of the game is for the player to collect all of the gold while avoiding hidden mine tiles that decrease the player's lives. The game is won when all the gold are collected, and the game is over when the user runs out of lives.
+
+The following design document details the technicals of the project, including the data structures and algorithms employed.
+
+-------------------
 
 **Partner 1: Cathy Han**
 
